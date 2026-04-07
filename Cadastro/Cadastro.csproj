@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conversores\ClienteTexto.cs" />
     <Compile Include="Telas\ManterCliente.cs" />
     <Compile Include="Telas\ManterFuncionario.cs" />
     <Compile Include="Program.cs" />
@@ -57,5 +58,6 @@
       <Name>Biblioteca</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

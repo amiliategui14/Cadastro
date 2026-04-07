@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.Model
 {
-    public sealed class Clientes : Pessoa
+    public sealed class Cliente : Pessoa
     {
 
     }

@@ -28,19 +28,19 @@ namespace Cadastro.Conversores
         public static Cliente ConverterParaCliente(String Linha)
         {
             string [] elementos = Linha.Split(',');
-            Cliente cliente = new Cliente();
+            Cliente funcionario = new Cliente();
 
-            cliente.Nome = elementos[0];
-            cliente.DataNascimento = DateTime.Parse(elementos[1]);
-            cliente.Telefone = elementos[2];
-            cliente.CPF = elementos[3];
-            cliente.RG = elementos[4];
-            cliente.CEP = int.Parse(elementos[5]);
-            cliente.Estado = elementos[6];
-            cliente.Cidade = elementos[7];
-            cliente.Endereco = elementos[8];
+            funcionario.Nome = elementos[0];
+            funcionario.DataNascimento = DateTime.Parse(elementos[1]);
+            funcionario.Telefone = elementos[2];
+            funcionario.CPF = elementos[3];
+            funcionario.RG = elementos[4];
+            funcionario.CEP = int.Parse(elementos[5]);
+            funcionario.Estado = elementos[6];
+            funcionario.Cidade = elementos[7];
+            funcionario.Endereco = elementos[8];
 
-            return cliente;
+            return funcionario;
         }
     }
 }
